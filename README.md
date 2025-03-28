@@ -36,4 +36,4 @@ NCrypt is a prototype encryption tool comprised of two coupled utilities: **Encr
 - **UI:** Tkinter
 - **Database:** MongoDB
 
-**Important:** NCrypt is a prototype and not a fully developed encryption product. Use it for educational and experimental purposes only.  
+# IMPORTANT: NCrypt is a prototype and not a fully developed encryption product. Use it for educational and experimental purposes only.  
