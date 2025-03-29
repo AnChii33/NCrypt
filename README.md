@@ -16,6 +16,7 @@ NCrypt is a prototype encryption tool comprised of two coupled utilities: **Encr
    - The original content is removed from local storage and replaced with the message:  
      `"THIS FILE IS ENCRYPTED"`.
    - The tool displays all the generated keys, including a final key, in its lower section.
+   - **NOTE: ORIGINAL CONTENT IS *NOT PRESERVED* ANYWHERE, THE FINAL ENCRYPTED DATA IS STORED IN DATABASE (MongoDB).**
 
 ### Decryption
 1. **Launch the Decryptor:**  
@@ -36,4 +37,7 @@ NCrypt is a prototype encryption tool comprised of two coupled utilities: **Encr
 - **UI:** Tkinter
 - **Database:** MongoDB
 
-# IMPORTANT: NCrypt is a prototype and not a fully developed encryption product. Use it for educational and experimental purposes only.  
+# IMPORTANT: 
+- # NCrypt is a prototype and not a fully developed encryption product. 
+- # Bugs may be present in the code. 
+- # Use it for educational and experimental purposes only.  
