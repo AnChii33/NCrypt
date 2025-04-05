@@ -1,7 +1,7 @@
-# NCrypt – Prototype Multi-Layered File Encryption Tool
+# NCrypt – Prototype File Encryption Tool
 
 ## Overview
-NCrypt is a prototype encryption tool comprised of two coupled utilities: **Encryptor** and **Decryptor**. It is designed to securely encrypt text files by applying multiple layers of encryption, then removing the original content from local storage. The decryption process restores the original file only when all the correct keys are provided in reverse order.
+NCrypt is a prototype encryption tool comprised of two coupled utilities: **Encryptor** and **Decryptor**. It is designed to securely encrypt text files by applying cascaded ciphering, then removing the original content from local storage. The decryption process restores the original file only when all the correct keys are provided in reverse order.
 
 ## How It Works
 
@@ -9,7 +9,7 @@ NCrypt is a prototype encryption tool comprised of two coupled utilities: **Encr
 1. **Launch the Encryptor:**  
    - Open the Encryptor tool.
    - Select the text file to encrypt.
-   - Enter the desired number of encryption layers.
+   - Enter the desired number of cihphering iterations.
    - Click **Submit**.
 2. **Encryption Process:**  
    - The file’s content is encrypted.
